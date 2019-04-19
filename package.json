@@ -1,0 +1,31 @@
+{
+  "name": "nemo-pdiff",
+  "version": "1.0.0",
+  "description": "A simple plugin for visual regression using nemo automation framework",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenilChristo/nemo-pdiff.git"
+  },
+  "keywords": [
+    "Nemo",
+    "visual",
+    "regression",
+    "automation",
+    "html2canvas",
+    "screenshot"
+  ],
+  "author": "Jenil Christo <jenilchristo5@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenilChristo/nemo-pdiff/issues"
+  },
+  "homepage": "https://github.com/jenilChristo/nemo-pdiff#readme",
+  "dependencies": {
+    "blink-diff": "^1.0.13",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
